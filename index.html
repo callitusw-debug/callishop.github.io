@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Minimalist Store</title>
-    <!-- Tailwind CSS Styling Library -->
-   <script src="https://tailwindcss.com" type="text/javascript"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Modern Living & Tech</title>
+    <!-- Rock-solid Tailwind CSS Design Engine -->
+    <script src="https://tailwindcss.com"></script>
+    <link rel="preconnect" href="https://googleapis.com">
     <link rel="preconnect" href="https://gstatic.com" crossorigin>
-    <link href="https://googleapis.com" rel="stylesheet">
-    <link rel="stylesheet" href="store.css">
-    <style>body { font-family: 'Plus Jakarta Sans', sans-serif; }</style>
+    <link href="https://googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
 </head>
 <body class="bg-slate-50 text-slate-900 flex flex-col min-h-screen">
 
-    <!-- Modern Navigation -->
+    <!-- Navigation Bar -->
     <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
         <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
             <a href="#" class="text-xl font-bold tracking-tight text-slate-900">THE_BOUTIQUE.</a>
-            <!-- Snipcart Checkout Dynamic Summary Cart Bubble Button -->
             <button class="snipcart-checkout flex items-center gap-2 bg-slate-900 text-white px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-800 transition">
                 <span>Cart</span>
                 <span class="snipcart-items-count bg-white/20 px-2 py-0.5 rounded-md text-xs">0</span>
@@ -26,7 +26,7 @@
         </div>
     </nav>
 
-  <!-- Premium Hero Section -->
+    <!-- Banner Header -->
     <header class="bg-white py-16 border-b border-slate-100">
         <div class="max-w-4xl mx-auto text-center px-6">
             <span class="text-xs font-semibold tracking-widest text-indigo-600 uppercase bg-indigo-50 px-3 py-1 rounded-full">Premium Spaces</span>
@@ -35,22 +35,20 @@
         </div>
     </header>
 
-   <!-- Main Dynamic Storefront Grid -->
+    <!-- Product Grid System -->
     <main class="flex-grow max-w-7xl mx-auto px-6 py-12 w-full">
-        <!-- Responsive Grid System: 1 column on mobile, 2 on tablet, 3 on desktop -->
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             
-            <!-- PRODUCT 1: ELECTRONICS (Portable Audio Speaker) -->
-            <div class="bg-white border border-slate-100 rounded-2xl p-5 hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col">
-                <div class="relative overflow-hidden rounded-xl">
-                    <img src="https://unsplash.com" alt="Studio Wireless Speaker" class="w-full h-64 object-cover bg-slate-100">
+            <!-- PRODUCT 1: ELECTRONICS -->
+            <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col">
+                <div class="relative overflow-hidden rounded-xl bg-slate-100">
+                    <img src="https://unsplash.com" alt="Studio Wireless Speaker" class="w-full h-64 object-cover">
                     <span class="absolute top-3 left-3 text-[10px] font-bold tracking-wider text-white uppercase bg-indigo-600 px-2.5 py-1 rounded-md">Electronics</span>
                 </div>
                 <h3 class="mt-4 font-semibold text-lg text-slate-900">Studio Wireless Speaker</h3>
-                <p class="text-sm text-slate-400 flex-grow mt-1">360-degree high-fidelity audio system with 20-hour ambient rechargeable battery lifespan.</p>
+                <p class="text-sm text-slate-500 flex-grow mt-1">360-degree high-fidelity audio system with 20-hour ambient rechargeable battery lifespan.</p>
                 <div class="mt-4 flex items-center justify-between">
-                   
-                    <button class="snipcart-add-item bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold px-4 py-2.5 rounded-xl transition"
+                    <button class="snipcart-add-item w-full bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold py-3 rounded-xl transition"
                         data-item-id="studio-speaker"
                         data-item-name="Studio Wireless Speaker"
                         data-item-price="189.00"
@@ -61,17 +59,16 @@
                 </div>
             </div>
 
-            <!-- PRODUCT 2: FURNITURE (Minimalist Lounge Chair) -->
-            <div class="bg-white border border-slate-100 rounded-2xl p-5 hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col">
-                <div class="relative overflow-hidden rounded-xl">
-                    <img src="https://unsplash.com" alt="Nordic Lounge Chair" class="w-full h-64 object-cover bg-slate-100">
+            <!-- PRODUCT 2: FURNITURE -->
+            <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col">
+                <div class="relative overflow-hidden rounded-xl bg-slate-100">
+                    <img src="https://unsplash.com" alt="Nordic Lounge Chair" class="w-full h-64 object-cover">
                     <span class="absolute top-3 left-3 text-[10px] font-bold tracking-wider text-slate-900 uppercase bg-amber-100 px-2.5 py-1 rounded-md">Furniture</span>
                 </div>
                 <h3 class="mt-4 font-semibold text-lg text-slate-900">Nordic Oak Lounge Chair</h3>
-                <p class="text-sm text-slate-400 flex-grow mt-1">Solid curved white oak timber frame draped in premium woven cream linen textile cushioning.</p>
+                <p class="text-sm text-slate-500 flex-grow mt-1">Solid curved white oak timber frame draped in premium woven cream linen textile cushioning.</p>
                 <div class="mt-4 flex items-center justify-between">
-                   
-                    <button class="snipcart-add-item bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold px-4 py-2.5 rounded-xl transition"
+                    <button class="snipcart-add-item w-full bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold py-3 rounded-xl transition"
                         data-item-id="nordic-chair"
                         data-item-name="Nordic Oak Lounge Chair"
                         data-item-price="340.00"
@@ -90,7 +87,7 @@
         &copy; 2026 THE_BOUTIQUE. Secure free checkouts via Snipcart Engine.
     </footer>
 
-   <!-- Snipcart Secure JavaScript Core API Scripts Injector Container -->
+    <!-- Snipcart Checkout Script Setup -->
     <script type="text/javascript">
         window.SnipcartSettings = {
             publicApiKey: 'ZTMwY2ZkM2UtNmU4YS00YTM0LTkyYTUtNmE3YjlmYjE0Y2M0NjM4MjM1MDc0OTg0OTM5MzQx',
